@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+}
+
+.video-loader {
+    /* position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 5; */
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.loading-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}

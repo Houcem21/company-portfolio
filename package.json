@@ -1,0 +1,15 @@
+{
+  "name": "g2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --no-source-map --watch src/menu-page.scss css/menu-page.css",
+    "sass:compress": "sass --no-source-map --watch src/menu-page.scss css/compress.css --style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+

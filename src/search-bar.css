@@ -1,0 +1,35 @@
+.search-bar-container {
+    font-size: 20px;
+    background: #000;
+    border-radius: 2.1rem;
+    min-width: 35vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+    background-color: #fff;
+}
+
+
+#dynamic-placeholder {
+    border: none; 
+    margin: 0;
+    padding: 12px;
+    color: grey;
+    outline: none !important;
+}
+
+.search-bar-button {
+    position: relative;
+    width: 15%;
+    background-color: #6E6F6E;
+    border-radius: 2.2rem ;
+    border-top-left-radius: 0;
+}
+
+.searchButton {
+    color: white;
+    position: absolute;
+    font-size: 1.4rem;
+    top: 8px;
+    right: 32px;
+}

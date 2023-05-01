@@ -1,0 +1,178 @@
+.page-responsive-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  background: none;
+  z-index: 9;
+  font-family: "Poppins", sans-serif;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1s cubic-bezier(0.45, 0.05, 0.3, 0.93);
+}
+.page-responsive-menu .page-responsive-menu-wrapper {
+  position: absolute;
+  right: 0;
+  width: 50vw;
+  min-width: 500px;
+  height: 100%;
+  background: black;
+  color: #ffffff;
+  z-index: 3;
+  overflow: hidden;
+  box-shadow: 0 0 62px 12px rgba(0, 0, 0, 0.35);
+}
+@media screen and (max-width: 740px) {
+  .page-responsive-menu .page-responsive-menu-wrapper {
+    min-width: auto;
+    width: 100%;
+  }
+}
+.page-responsive-menu .page-responsive-menu-wrapper:after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #ef233c;
+  z-index: 3;
+  transition: none;
+}
+.page-responsive-menu .toggle-button {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+.page-responsive-menu .page-responsive-menu-nav {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: right;
+  width: 100%;
+  padding: 30px 60px 30px 40px;
+  height: 100%;
+  overflow-y: auto;
+  pointer-events: auto;
+}
+.page-responsive-menu .page-responsive-menu-nav ul li {
+  display: block;
+}
+.page-responsive-menu .page-responsive-menu-nav ul li a {
+  position: relative;
+  right: 0;
+  display: block;
+  font-size: 25px;
+  padding: 1vh 0;
+  right: -10vw;
+  opacity: 0;
+  transform: skew(-25deg);
+  transition: all 0.5s cubic-bezier(0.45, 0.05, 0.3, 0.93);
+}
+.page-responsive-menu .page-responsive-menu-nav ul li a:hover, .page-responsive-menu .page-responsive-menu-nav ul li a.active {
+  color: #ef233c;
+}
+.page-responsive-menu .page-responsive-menu-nav ul li.item--lg > a {
+  font-size: 56px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+@media screen and (max-width: 920px) {
+  .page-responsive-menu .page-responsive-menu-nav ul li.item--lg > a {
+    font-size: 7vw;
+  }
+}
+@media screen and (max-width: 740px) {
+  .page-responsive-menu .page-responsive-menu-nav ul li.item--lg > a {
+    font-size: 13vw;
+  }
+}
+@media screen and (max-width: 920px) and (orientation: landscape) {
+  .page-responsive-menu .page-responsive-menu-nav ul li.item--lg > a {
+    font-size: 7vh;
+  }
+}
+.page-responsive-menu .page-responsive-menu-nav ul li:nth-child(2n):hover a {
+  color: #ef233c;
+}
+.page-responsive-menu--stabil .page-responsive-menu .page-responsive-menu-wrapper:after {
+  transition: all 1s cubic-bezier(0.45, 0.05, 0.3, 0.93);
+  left: -100%;
+}
+.page-responsive-menu--stabil .page-responsive-menu .page-responsive-menu-nav ul {
+  padding: 5px 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.page-responsive-menu--stabil .page-responsive-menu .page-responsive-menu-nav ul li a {
+  transition-delay: 0s !important;
+}
+.page-responsive-menu--active .page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.page-responsive-menu--active .page-header .page-header-social {
+  color: #ffffff;
+}
+.page-responsive-menu--active .page-header .page-header-social ul li a:hover,
+.page-responsive-menu--active .page-header .page-header-social ul li a.active {
+  color: #ef233c;
+}
+.page-responsive-menu--active .page-header .page-header-language ul li a {
+  border-color: #ffffff;
+  color: #ffffff;
+  opacity: 0.65;
+}
+.page-responsive-menu--active .page-header .page-header-language ul li a:hover, .page-responsive-menu--active .page-header .page-header-language ul li a.active {
+  opacity: 1;
+}
+.page-responsive-menu--active .page-header .nav-btn > span,
+.page-responsive-menu--active .page-header .nav-btn.nav-btn--close > span {
+  border-color: #ffffff;
+}
+.page-responsive-menu--active .page-responsive-menu {
+  right: 0;
+  visibility: visible;
+  opacity: 1;
+  width: 100%;
+}
+.page-responsive-menu--active .page-responsive-menu .page-responsive-menu-nav ul li:nth-child(1) > a {
+  transition-delay: 0.75s;
+}
+.page-responsive-menu--active .page-responsive-menu .page-responsive-menu-nav ul li:nth-child(2) > a {
+  transition-delay: 0.85s;
+}
+.page-responsive-menu--active .page-responsive-menu .page-responsive-menu-nav ul li:nth-child(3) > a {
+  transition-delay: 0.95s;
+}
+.page-responsive-menu--active .page-responsive-menu .page-responsive-menu-nav ul li:nth-child(4) > a {
+  transition-delay: 1.05s;
+}
+.page-responsive-menu--active .page-responsive-menu .page-responsive-menu-nav ul li:nth-child(5) > a {
+  transition-delay: 1.15s;
+}
+.page-responsive-menu--active .page-responsive-menu .page-responsive-menu-nav ul li:nth-child(6) > a {
+  transition-delay: 1.25s;
+}
+.page-responsive-menu--active .page-responsive-menu .page-responsive-menu-nav ul li:nth-child(7) > a {
+  transition-delay: 1.35s;
+}
+.page-responsive-menu--active .page-responsive-menu .page-responsive-menu-nav ul li:nth-child(8) > a {
+  transition-delay: 1.45s;
+}
+.page-responsive-menu--active .page-responsive-menu .page-responsive-menu-nav ul li:nth-child(9) > a {
+  transition-delay: 1.55s;
+}
+.page-responsive-menu--active .page-responsive-menu .page-responsive-menu-nav ul li:nth-child(10) > a {
+  transition-delay: 1.65s;
+}
+.page-responsive-menu--active .page-responsive-menu .page-responsive-menu-nav ul li a {
+  right: 0;
+  opacity: 1;
+  transform: skew(0);
+}/*# sourceMappingURL=menu-page.css.map */

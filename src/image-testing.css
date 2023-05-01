@@ -1,0 +1,133 @@
+.buttons ul {
+    gap: 0 !important;
+}
+
+.bg-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: none !important;
+}
+
+.main-container > *:nth-child(2) {
+    background-image: url('../res/bg-images/5f2807f893ffc.jpg') !important;
+}
+.main-container > *:nth-child(3) {
+    background-image: url('../res/bg-images/7_digital_skills600x387.png') !important;
+}
+.main-container > *:nth-child(4) {
+    background-image: url('../res/bg-images/0601354519335-web-tete.jpg') !important;
+}
+.main-container > *:nth-child(5) {
+    background-image: url('../res/bg-images/automatisme-industriel.jpg') !important;
+}
+.main-container > *:nth-child(6) {
+    background-image: url('../res/bg-images/automatismes_ri-a-automation.jpg') !important;
+}
+.main-container > *:nth-child(7) {
+    background-image: url('../res/bg-images/big-data.jpg') !important;
+}
+.main-container > *:nth-child(8) {
+    background-image: url('../res/bg-images/big-data-cube-300__w630.jpg') !important;
+}
+.main-container > *:nth-child(9) {
+    background-image: url('../res/bg-images/big-data-types-and-examples-scaled.jpg') !important;
+}
+.main-container > *:nth-child(10) {
+    background-image: url('../res/bg-images/big-data-vs-ia-ynov.jpg') !important;
+}
+.main-container > *:nth-child(11) {
+    background-image: url('../res/bg-images/blockchain.jpg') !important;
+}
+.main-container > *:nth-child(12) {
+    background-image: url('../res/bg-images/CRYPTO.png') !important;
+}
+.main-container > *:nth-child(13) {
+    background-image: url('../res/bg-images/D.Marketing.png') !important;
+}
+.main-container > *:nth-child(14) {
+    background-image: url('../res/bg-images/Dataanalysis.jpg') !important;
+}
+.main-container > *:nth-child(15) {
+    background-image: url('../res/bg-images/Data-analysis.png') !important;
+}
+.main-container > *:nth-child(16) {
+    background-image: url('../res/bg-images/Data-analytics2.jpg') !important;
+}
+.main-container > *:nth-child(17) {
+    background-image: url('../res/bg-images/data-analytics-vs-data-science.png') !important;
+}
+.main-container > *:nth-child(18) {
+    background-image: url('../res/bg-images/développement-web_1_08_avril.png') !important;
+}
+.main-container > *:nth-child(19) {
+    background-image: url('../res/bg-images/Developpeur-Web.jpg') !important;
+}
+.main-container > *:nth-child(20) {
+    background-image: url('../res/bg-images/digital-marketing.jpg') !important;
+}
+.main-container > *:nth-child(21) {
+    background-image: url('../res/bg-images/digital-marketing-2.jpg') !important;
+}
+.main-container > *:nth-child(22) {
+    background-image: url('../res/bg-images/digital-marketing-strategy-blog-feature-image-scaled.jpg') !important;
+}
+.main-container > *:nth-child(23) {
+    background-image: url('../res/bg-images/foto-big-data-3.jpg') !important;
+}
+.main-container > *:nth-child(24) {
+    background-image: url('../res/bg-images/Graphicdesign.jpg') !important;
+}
+.main-container > *:nth-child(25) {
+    background-image: url('../res/bg-images/Graphic-design.jpg') !important;
+}
+.main-container > *:nth-child(26) {
+    background-image: url('../res/bg-images/IA-Big-Data-IoT-DB-2.jpg') !important;
+}
+.main-container > *:nth-child(27) {
+    background-image: url('../res/bg-images/INTELLIGENCE-ARTIFICIELLE.jpg') !important;
+}
+.main-container > *:nth-child(28) {
+    background-image: url('../res/bg-images/IOT.jpg') !important;
+}
+.main-container > *:nth-child(29) {
+    background-image: url('../res/bg-images/iStock-1221293664-1.jpg') !important;
+}
+.main-container > *:nth-child(30) {
+    background-image: url('../res/bg-images/mobile.jpg') !important;
+}
+.main-container > *:nth-child(31) {
+    background-image: url('../res/bg-images/MSc_DataSc2_web775x465.jpg') !important;
+}
+.main-container > *:nth-child(32) {
+    background-image: url('../res/bg-images/ucarecdn.png') !important;
+}
+.main-container > *:nth-child(33) {
+    background-image: url('../res/bg-images/What-is-driving-IoT-2.jpg') !important;
+}
+.main-container > *:nth-child(34) {
+    background-image: url('../res/bg-images/1644357944737.png') !important;
+}
+.main-container > *:nth-child(35) {
+    background-image: url('../res/bg-images/1672168304504.jpg') !important;
+}
+.main-container > *:nth-child(36) {
+    background-image: url('../res/bg-images/digital marketing.jpg') !important;
+}
+.main-container > *:nth-child(37) {
+    background-image: url('../res/bg-images/Graphic desiiiggggnn.jpg') !important;
+}
+.main-container > *:nth-child(38) {
+    background-image: url('../res/bg-images/iot1.png') !important;
+}
+.main-container > *:nth-child(39) {
+    background-image: url('../res/bg-images/multiple-database-placed-on-relational-260nw-2161798435.webp') !important;
+}
+.main-container > *:nth-child(40) {
+    background-image: url('../res/bg-images/zyro-image.png') !important;
+}
+
+/* TO AUTOMATE -- BY HD */

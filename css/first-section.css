@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600;900&display=swap");
+:root {
+  --mute-text-color: rgb(118, 121, 136);
+  --info-color-darkest: black;
+  --success-color-darker: rgb(90, 198, 197);
+  --success-color-lighter: rgb(224, 245, 244);
+  --info-color-darker: rgb(94, 159, 241);
+  --info-color-lighter: rgb(227, 239, 253);
+  --danger-color-darker: rgb(240, 142, 109);
+  --danger-color-lighter: rgb(253, 238, 232);
+  --secondary-color-darker: rgb(133, 145, 159);
+  --secondary-color-lighter: rgb(236, 238, 240);
+  --primary-color: rgb(54, 217, 216);
+  --purple-color: rgb(137, 79, 198);
+  --light-blue-color: rgb(213, 222, 234);
+}
+
+span {
+  margin: 0 !important;
+}
+
+.first-section-container {
+  position: relative;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.first-section-container .welcome-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  z-index: 5;
+  width: 73%;
+  padding-left: 5rem;
+}
+.first-section-container .welcome-text-container .welcome-banner {
+  color: white;
+}
+.first-section-container .welcome-text-container .welcome-banner .welcome-title {
+  position: relative;
+  z-index: 1;
+  font-size: 5rem;
+  line-height: 6rem;
+  font-family: "Mulish", sans-serif;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+.first-section-container .welcome-text-container .welcome-banner .welcome-title .dot {
+  position: absolute;
+  height: 10.4rem;
+  width: 10.4rem;
+  background-color: #F4F6FF;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: -1;
+  top: -50px;
+  left: -35px;
+}
+.first-section-container .welcome-text-container .welcome-banner .welcome-title .dot-text {
+  color: black;
+}
+.first-section-container .welcome-text-container .welcome-banner .welcome-title .dot-logo-text {
+  position: absolute;
+  top: -67px;
+  left: 20px;
+  z-index: 3;
+  color: #127681;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: "Mulish", sans-serif;
+}
+.first-section-container .welcome-text-container .welcome-banner .welcome-title .dot-logo-line {
+  position: absolute;
+  border: 2px solid #127681;
+  width: 50px;
+  left: -50px;
+  top: -20px;
+}
+.first-section-container .welcome-text-container .welcome-banner .welcome-title .welcome-title-bg-text {
+  background-color: #636363;
+}
+.first-section-container .welcome-text-container .welcome-banner p {
+  width: 70%;
+}
+.first-section-container .welcome-image-container {
+  position: absolute;
+  z-index: 0;
+  right: -58px;
+  top: -50px;
+  min-width: 300px;
+  min-height: 300px;
+  width: 45%;
+}
+.first-section-container .welcome-image-container .welcome-image {
+  border-radius: 36px;
+}
+.first-section-container .welcome-image-container .image-bg-block {
+  position: absolute;
+  height: 100%;
+  width: 110%;
+  right: -38px;
+  top: 0;
+  z-index: -1;
+  background-color: rgba(42, 128, 165, 0.53);
+  border-radius: 0px 0px 0px 100px;
+  transform: rotate(4.36deg);
+}
+.first-section-container .welcome-image-container .image-circle-block {
+  position: absolute;
+  background-color: #F4F6FF;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  left: -50px;
+  bottom: 200px;
+  opacity: 0.2;
+}
+.first-section-container .welcome-image-container .image-border-block {
+  position: absolute;
+  background-color: #F4F6FF;
+  border-radius: 2rem;
+  height: 50px;
+  width: 200px;
+  bottom: -25px;
+  right: 230px;
+  opacity: 0.2;
+}/*# sourceMappingURL=first-section.css.map */
